@@ -1,8 +1,12 @@
+// import Pokedex from './components/Pokedex';
+import Pokegame from './components/Pokegame';
+
 import './App.css';
+
 function App() {
   return (
-    <div>
-      Pokedexx
+    <div className="App">
+      <Pokegame />
     </div>
   );
 }
